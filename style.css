@@ -1,8 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    background-color: rgb(7, 7, 34);
-    overflow-x: hidden;
+    background-color: rgb(24, 31, 53);
+
 }
 
 a{
@@ -16,6 +16,8 @@ h1{
 
 p{
     color: gray;
+    text-align: justify;
+    padding-bottom: 15px;
 }
 
 .salmon_highlight{
@@ -65,6 +67,11 @@ p{
     border-radius: 20px;
 }
 
+.section_3 h2{
+    font-size: 40px;
+    color: gray;
+}
+
 .experience{
     width: 25%;
     float: left;
@@ -98,6 +105,7 @@ p{
     left: 70%;
 }
 
+
 .bottom_icon{
     text-align: center;
     width: 100%;
@@ -111,4 +119,30 @@ p{
 
 .section_4{
     padding: 0px;
+}
+
+.fancy_bg{
+    background-image: url("images/bottombanner.png");
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 100%;
+    width: 80%;
+    background-size: contain;
+}
+
+#chat{
+    float: right;
+    margin: 10%;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#work{
+    float: left;
+    margin: 10%;
+    font-size: 30px;
+}
+#mail{
+    text-align: center;
 }
