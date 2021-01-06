@@ -1,0 +1,114 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: rgb(7, 7, 34);
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 40px;
+    color: darkcyan;
+}
+
+p{
+    color: gray;
+}
+
+.salmon_highlight{
+    color: salmon;
+}
+
+.sec{
+    height: 500px;
+    padding: 50px;
+}
+
+.half_sec{
+    width: 40%;
+    float: left;
+    padding: 3%;
+    margin: 2%;
+}
+
+.sec img{
+    width: 100%;
+}
+
+.nav_pos{
+    color: rgb(243, 176, 176);
+    float: right;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.nav_bar{
+    padding-right: 2%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.shadow-box{
+    box-shadow: 5px 5px 30px gray;
+    height: 60%;
+    border-radius: 20px;
+}
+
+.experience{
+    width: 25%;
+    float: left;
+    padding: 2%;
+    margin: 2%;
+}
+
+.section_4 img{
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.section_4 h2{
+    position: relative;
+    bottom: 35%;
+    left: 20%;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.bottom_icon h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(111, 179, 211);
+}
+
+.section_4 a{
+    position: relative;
+    bottom: 51%;
+    left: 70%;
+}
+
+.bottom_icon{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.bottom_icon img{
+    padding: 10px;
+    width: 50px;
+}
+
+.section_4{
+    padding: 0px;
+}
